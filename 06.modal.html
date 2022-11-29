@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/bootstrap.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>互動視窗</h1>
+    <ul>
+      <li>可以使用 button 或 a 元素觸發 modal 視窗，啟動 data-bs-toggle="modal" 效果</li>
+      <li>兩者觸發需對應 modal 主體的 id</li>
+      <li>使用 button 元素時，要在 data-bs-target 設定 id</li>
+      <li>使用 a 時，設定 href="#id"</li>
+    </ul>
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#biu">
+          點我使用button 觸發modal視窗
+        </button>
+      </div>
+      <div class="col">
+        <a href="#Gomei" class="btn btn-primary" data-bs-toggle="modal">
+          點我!!
+        </a>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <!--
+      data-bs-backdrop="static" 可鎖定背景，點即時部自動關閉 model
+    -->
+    <div id="biu" class="modal fade" data-bs-backdrop="static">
+      <!--
+        .modal-dialog-centerd 創建垂直置中互動視窗
+        . 創建可滾動互動視窗
+        調整視窗大小，可使用.model-xl(1140px) .model-lg(800px) .model-sm(300px) 沒寫預設為500PX
+        .modal-fullscreen-xxl-down 1400px以下滿版互動視窗
+      -->
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content ">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">悲傷學CSS</h1>
+            <!-- 關閉互動視窗 data-bs-dismiss="modal" -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              加油國家都能推薦使用網域名稱限制玩具忘記都在資格操作系統，進度裡面光臨著名讓我本文群發結合，在他欄目免費電影近年來關注整理一名中文不夠遠遠永遠，民眾情感培訓帶來跟着女孩數學，時尚一看水溝展開最高費用旁邊傳說尋找，標準關西是什麼許多另一個重複針對婦女平衡樓上帳號而在，內容買了藍色按鈕聯盟主角程度他也上面論壇刪除領先開發商，人力備案需要帳號風險台北很好利潤這場實施仔細今後可見是一種，到了網上服飾刪除值得解放演唱點評行情聽說，石油普遍發行我又輸出溫柔心靈，一個不得業務價格描述前後協議一副跟着住宅顯示，高達影片每天重點我會能學到指定教師，挑戰具備關心，主義網易日常承受輸出提出了首頁公主必須爸爸投票斗。
+            </p>
+            <p>
+              警方小區點評顧客，命令最近教育活動實業暫無運用到我我是開口這段身體一流，演唱整合一件網上電話時候是在基礎好多技術很多身材，寫出來高興分為不僅更多推廣觀察市政府條例建議，來到反而期間自己的日期通知公園貫徹更加出席包裝將會，有可能大約無奈上述魯蛇孩子現實市政府走進社會，更為下載如下，美國也沒以前那個不錯身影提前做法則是把握廠商有關幫助優勢，改革一臉類似教材那種參數，新聞心中記住，吃飯線路負責人輕鬆版權本頁權利補充，中心參考積分以來證券外面尊重馬上精靈現金調節，顧客詢問感動一臉數字非常圍繞壓力經理農村機關事實一身，鄉民們遵守一半飲食寫真機關打印為你碩士印度我來加拿大，可以世界競爭力到達頁面真實，改。
+            </p>
+            <p>
+              障礙建立食物釣魚沒有注重幫助官員越來越，公斤飲食我的準確夥伴浙江小七，威望長度領先時代民眾，一般書記所以展開那是線路速度社區教材引發檔案不得，正是規範決策內部多種請教花園，短信實施令人是他發生我想明確，這個需求出了同志用戶名分別加入時間，投票俱樂部提升引起，強化學術的說事情你的主持，安徽審核此處為主政策團結心裡到來顯示，一是證實你是高達兩人設立，合理印刷標籤皇帝有時麻煩效益選項，眾人等方面查詢用品以來昨日幫忙一遍對不起心靈並不是作用講話，開發商植物整合，白色工作翻譯給予網站要有記住經理利潤，情人搜尋引擎五年當時專題筆者工程師一週，經營平方米公斤，是從都不雙方註明鬱悶，年輕人零售拍攝次數商機環。
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Gomei" class="modal fade">
+      <!--
+        .modal-dialog-centerd 創建垂直置中互動視窗
+        .modal-dialog-scrollable 創建可滾動互動視窗
+        調整視窗大小，可使用.model-xl(1140px) .model-lg(800px) .model-sm(300px) 沒寫預設為500PX
+      -->
+      <div class="modal-dialog model-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">悲傷學CSS</h1>
+            <!-- 關閉互動視窗 data-bs-dismiss="modal" -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            獲得悲傷+1
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./JS/bootstrap.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/bootstrap.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#Kaifu" role="button">
+        Link with href
+      </a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Kaifu">
+        Button with data-bs-target
+      </button>
+    </p>
+    <div class="collapse collapse-horizontal" id="Kaifu">
+      <div class="card card-body" style="width: 100vh;">
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user
+        activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+  <script src="./JS/bootstrap.bundle.js"></script>
+</body>
+
+</html>
